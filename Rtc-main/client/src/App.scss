@@ -1,0 +1,22 @@
+@import "_colours";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Instrument Sans" !important;
+  font-weight: 200;
+}
+html {
+  height: -webkit-fill-available; /* We have to fix html height */
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  color: $text-color;
+  min-height: -webkit-fill-available;
+  background-color: $secondary-color-light;
+}
+#root {
+  height: 100%;
+}
